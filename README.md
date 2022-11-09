@@ -1,6 +1,8 @@
 # Water-Rangers-Open-Data-Standard-WQX
-Water Rangers open data standard for community-based water monitoring data following the EPA's WQX's standard
-Background
+Water Rangers open data standard for community-based water monitoring data, following the WQX standard for the Exchange of Water Quality Data.
+
+## Background
+
 
 In 2022, Water Rangers was the recipient of a Research Data Alliance's Data Champions grant, which funded the effort to align its existing data structue to be in line with the WQX standard for the Exchange of Water Quality Data. 
 

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document Id="UI1" xmlns="http://www.exchangenetwork.net/schema/v1.0/ExchangeNetworkDocument.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<Author>Gabi Parent-Doliner</Author>
+		<Organization>Water Rangers</Organization>
+		<Title>Water Rangers adpated WQX-XML-SCHEMA-DRAFT</Title>
+		<CreationTime>2004-04-05T09:30:47-05:00</CreationTime>
+		<Comment>This is a test file created from a dataset that is hosted on Water Rangers data platform</Comment>
+		<ContactInfo>123 Slater Street, Ottawa, ON, Canada</ContactInfo>
+		<Notification>contact@waterrangers.ca</Notification>
+	</Header>
+	<Payload Operation="Update-Insert">    
+	  <WQX xmlns="http://www.exchangenetwork.net/schema/wqx/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.exchangenetwork.net/schema/wqx/3 http://www.exchangenetwork.net/schema/wqx/3/index.xsd">
+      <Organization>
+        <OrganizationDescription>
+          <OrganizationIdentifier>524c58d3-44eb-4265-89bf-62ce48b61d25</OrganizationIdentifier>
+          <OrganizationFormalName>Lake Erie Guardians</OrganizationFormalName>
+          <OrganizationDescriptionText>Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organization Here is a description of the organizat</OrganizationDescriptionText>
+          <TribalCode>US Tribal Code</TribalCode>
+        </OrganizationDescription>
+        <ElectronicAddress>
+          <ElectronicAddressText>contact@waterrangers.ca</ElectronicAddressText>
+          <ElectronicAddressTypeName>Email</ElectronicAddressTypeName>
+        </ElectronicAddress>
+        <Telephonic>
+          <TelephoneNumberText>800-484-1584</TelephoneNumberText>
+          <TelephoneNumberTypeName>Office</TelephoneNumberTypeName>
+          <TelephoneExtensionNumberText/>
+        </Telephonic>
+        <OrganizationAddress>
+          <AddressTypeName>Location</AddressTypeName>
+          <AddressText>123 Niagara Street</AddressText>
+          <SupplementalAddressText>Unit A</SupplementalAddressText>
+          <LocalityName>Niagara Falls</LocalityName>
+          <StateCode>ON</StateCode>
+          <PostalCode>L1S3G7</PostalCode>
+          <CountryCode>CA</CountryCode>
+        </OrganizationAddress>
+        <Project>
+          <ProjectIdentifier>148ae964c-d224-453e-9d80-62f9314a23ba</ProjectIdentifier>
+          <ProjectName>WQX Draft Project-Lake Erie Guardians</ProjectName>
+          <ProjectDescriptionText>The Lake Erie Guardians program will equip 50 Western Ontarians with the tools they need to protect and enhance local waterbodies. With our support, these “Guardians'' will come together in a physically distanced way in summer 2021 to collect hundreds of water quality tests, plant dozens of trees and shrubs, collect trash along shorelines, and renew their connections to nature! This project is made possible by the Government of Ontario's Great Lakes Local Action Fund.</ProjectDescriptionText>
+            <MonitoringLocationIdentifier>123</MonitoringLocationIdentifier>
+          </ProjectMonitoringLocationWeighting>  
+        </Project>
+        <MonitoringLocation>
+          <MonitoringLocationIdentity>
+            <MonitoringLocationIdentifier>f2bc9b6e-e01a-4e41-98f0-3f82dfc6aee3</MonitoringLocationIdentifier>
+            <MonitoringLocationName>Welland Canal</MonitoringLocationName>
+            <MonitoringLocationTypeName>Canal</MonitoringLocationTypeName>
+            <MonitoringLocationDescriptionText>Location 200 meters downstream of canal mouth</MonitoringLocationDescriptionText>
+            <AlternateMonitoringLocationIdentity>
+              <MonitoringLocationIdentifier>1230123456789</MonitoringLocationIdentifier>
+            </AlternateMonitoringLocationIdentity>
+          </MonitoringLocationIdentity>
+          <MonitoringLocationGeospatial>
+            <LatitudeMeasure>34.141592</LatitudeMeasure>
+            <LongitudeMeasure>-74.141592</LongitudeMeasure>
+            <CountryCode>CA</CountryCode>
+            <StateCode>ON</StateCode>
+          </MonitoringLocationGeospatial>
+        </MonitoringLocation>
+        <Activity>
+          <ActivityDescription>
+            <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+            <ActivityMediaName>Water</ActivityMediaName>
+            <ActivityMediaSubdivisionName>surface water</ActivityMediaSubdivisionName>
+            <ActivityStartDate>2021-05-13</ActivityStartDate>
+            <ActivityStartTime>
+              <Time>14:20:00</Time>
+              <TimeZoneCode>EST</TimeZoneCode>
+            </ActivityStartTime>
+            <ActivityEndDate>2021-05-13</ActivityEndDate>
+            <ActivityEndTime>
+              <Time>14:54:00</Time>
+              <TimeZoneCode>EST</TimeZoneCode>
+            </ActivityEndTime>
+          </ActivityDescription>
+          <ActivityLocation>
+            <LatitudeMeasure>34.141592</LatitudeMeasure>
+            <LongitudeMeasure>-74.141592</LongitudeMeasure>
+          </ActivityLocation>
+          <SampleDescription>
+            <SampleCollectionMethod>
+              <MethodName>Water Rangers Freshwater Testkit</MethodName>
+              <MethodDescriptionText>Samples taken using Water Rangers Freshwater Explorer testkits.  A digital probe is used to collect temperature and conductivity data from a triple rinsed surface water sample. Clarity and depth is obtained via secchi disc. Dissolved oxygen is measured using the Indigo Carmine test from Chemetrics. pH, Alkalinity, Chlorinity, and Hardness obtained from Taylor test strip test.<MethodDescriptionText/>
+            </SampleCollectionMethod>
+            <SampleCollectionEquipmentName>Probe/Sensor</SampleCollectionEquipmentName>
+            <HydrologicCondition>Peak stage</HydrologicCondition>
+            <HydrologicEvent>Hurricane</HydrologicEvent>
+          </SampleDescription>
+            <SamplePreparation>
+              <SamplePreparationMethod>
+                <MethodIdentifier>string</MethodIdentifier>
+                <MethodIdentifierContext>string</MethodIdentifierContext>
+                <MethodName>string</MethodName>
+              </SamplePreparationMethod>
+              <SampleContainerTypeName>test</SampleContainerTypeName>
+              <SampleContainerColorName>Test</SampleContainerColorName>
+              <ChemicalPreservativeUsedName>String</ChemicalPreservativeUsedName>
+              <ThermalPreservativeUsedName>None</ThermalPreservativeUsedName>
+              <SampleTransportStorageDescription>test</SampleTransportStorageDescription>
+            </SamplePreparation>
+          </SampleDescription>
+          <Result>
+            <ResultDescription>
+              <DataLoggerLineName/>
+              <ResultDetectionConditionText/>
+              <CharacteristicName>conductivity</CharacteristicName>
+              <ResultSampleFractionText>Total</ResultSampleFractionText>
+              <ResultMeasure>
+                <ResultMeasureValue>892</ResultMeasureValue>
+                <MeasureUnitCode>μS</MeasureUnitCode>
+                <MeasureQualifierCode>ALT</MeasureQualifierCode>
+              </ResultMeasure>
+              <ResultStatusIdentifier>Accepted</ResultStatusIdentifier>
+              <StatisticalBaseCode>Maximum</StatisticalBaseCode>
+              <ResultValueTypeName>Actual</ResultValueTypeName>
+              <ResultWeightBasisText/>
+              <ResultTimeBasisText/>
+              <ResultTemperatureBasisText/>
+              <ResultParticleSizeBasisText>String</ResultParticleSizeBasisText>
+              <DataQuality>
+                <PrecisionValue>String</PrecisionValue>
+                <BiasValue>String</BiasValue>
+              </DataQuality>
+              <ResultCommentText>String</ResultCommentText>
+            </ResultDescription>
+            <ResultAnalyticalMethod>
+              <MethodIdentifier>9213-D</MethodIdentifier>
+              <MethodIdentifierContext>APHA</MethodIdentifierContext>
+            </ResultAnalyticalMethod>
+            <ResultLabInformation>
+              <LaboratoryName>String</LaboratoryName>
+              <AnalysisStartDate>2006-05-26</AnalysisStartDate>
+              <AnalysisStartTime>
+                <Time>14:20:00</Time>
+                <TimeZoneCode>EST</TimeZoneCode>
+              </AnalysisStartTime>
+              <ResultDetectionQuantitationLimit>
+                <DetectionQuantitationLimitTypeName>Method detection level</DetectionQuantitationLimitTypeName>
+                <DetectionQuantitationLimitMeasure>
+                  <MeasureValue>1</MeasureValue>
+                  <MeasureUnitCode>mg/l</MeasureUnitCode>
+                </DetectionQuantitationLimitMeasure>
+              </ResultDetectionQuantitationLimit>
+            </ResultLabInformation>
+            <LabSamplePreparation>
+              <LabSamplePreparationMethod>
+                <MethodIdentifier>Method001</MethodIdentifier>
+                <MethodIdentifierContext>1</MethodIdentifierContext>
+                <MethodName>1</MethodName>
+              </LabSamplePreparationMethod>
+              <PreparationStartDate>1999-01-01</PreparationStartDate>
+            </LabSamplePreparation>
+          </Result>
+          <Result>
+            <ResultDescription>
+              <DataLoggerLineName/>
+              <ResultDetectionConditionText/>
+              <CharacteristicName>Lake condition (choice list)</CharacteristicName>
+              <ResultSampleFractionText>Total Recoverable</ResultSampleFractionText>
+              <ResultMeasure>
+                <ResultMeasureValue>POOR</ResultMeasureValue>
+                <MeasureUnitCode/>
+                <MeasureQualifierCode/>
+              </ResultMeasure>
+              <ResultStatusIdentifier>Preliminary</ResultStatusIdentifier>
+              <StatisticalBaseCode>Maximum</StatisticalBaseCode>
+              <ResultValueTypeName>Actual</ResultValueTypeName>
+              <ResultWeightBasisText/>
+              <ResultTimeBasisText/>
+              <ResultTemperatureBasisText/>
+              <ResultParticleSizeBasisText/>
+              <DataQuality>
+                <PrecisionValue/>
+                <BiasValue/>
+              </DataQuality>
+              <ResultCommentText>Lake condition was poor (heavy debris) potentially due to heavy rain in past 48 hours.</ResultCommentText>
+            </ResultDescription>
+            <ResultAnalyticalMethod>
+              <MethodIdentifier>9213-D</MethodIdentifier>
+              <MethodIdentifierContext>APHA</MethodIdentifierContext>
+            </ResultAnalyticalMethod>
+            <ComparableAnalyticalMethod>
+              <MethodIdentifier>FE-01</MethodIdentifier>
+              <MethodIdentifierContext>USEPA</MethodIdentifierContext>
+              <MethodModificationText>FE-01 Test</MethodModificationText>
+            </ComparableAnalyticalMethod>
+            <ResultLabInformation>
+              <LaboratoryName>ABC Labs</LaboratoryName>
+              <AnalysisStartDate>2006-05-26</AnalysisStartDate>
+              <AnalysisStartTime>
+                <Time>14:20:00</Time>
+                <TimeZoneCode>EST</TimeZoneCode>
+              </AnalysisStartTime>
+              <ResultDetectionQuantitationLimit>
+                <DetectionQuantitationLimitTypeName>Method detection level</DetectionQuantitationLimitTypeName>
+                <DetectionQuantitationLimitMeasure>
+                  <MeasureValue>1</MeasureValue>
+                  <MeasureUnitCode>mg/l</MeasureUnitCode>
+                </DetectionQuantitationLimitMeasure>
+              </ResultDetectionQuantitationLimit>
+            </ResultLabInformation>
+            <LabSamplePreparation>
+              <LabSamplePreparationMethod>
+                <MethodIdentifier>Method001</MethodIdentifier>
+                <MethodIdentifierContext>NELAC</MethodIdentifierContext>
+                <MethodName>Method11</MethodName>
+              </LabSamplePreparationMethod>
+              <PreparationStartDate>1999-01-01</PreparationStartDate>
+            </LabSamplePreparation>
+          </Result>
+        </Activity>
+        <ActivityGroup>
+          <ActivityGroupIdentifier>Group 04-23</ActivityGroupIdentifier>
+          <ActivityGroupName>Group 04-23 Fish Biotic Index</ActivityGroupName>
+          <ActivityGroupTypeCode>Field Set</ActivityGroupTypeCode>
+          <ActivityIdentifier>10001</ActivityIdentifier>
+          <ActivityIdentifier>10002</ActivityIdentifier>
+        </ActivityGroup>  
+      </Organization>
+    </WQX>
+	</Payload>
+</Document>	

@@ -13,9 +13,6 @@ Water Rangers (waterrangers.ca) is an online open-access platform for sharing wa
 
 By ensuring community-based water monitoring (CBWM) data is collected, managed, and shared in accordance with this international standard we will better adhere to best practices, and further the reach and use of CBWM data.
 
-## Use
-const jsonschema = requrie('wqx/json-schema/biological');
-
 
 ## References
 * https://www.epa.gov/waterdata/water-quality-data-wqx
